@@ -1,14 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ข้อมูลส่วนตัวนักศึกษา</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f0f0f0;
+      padding: 40px;
+    }
+
+    .profile-card {
+      background-color: #fff;
+      max-width: 500px;
+      margin: auto;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+
+    .profile-card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #3498db;
+      margin-bottom: 20px;
+    }
+
+    .profile-card h2 {
+      margin: 10px 0 5px;
+      color: #2c3e50;
+    }
+
+    .profile-card p {
+      margin: 5px 0;
+      color: #555;
+      font-size: 16px;
+    }
+
+    .profile-card .email {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #2980b9;
+    }
+  </style>
+</head>
 <body>
 
-<h1>สุภาวดี เวียงสอน</h1>
-<h2>6760259106</h2>
-<h2>สาขาวิชาเทคโนโลยีสารสนเทศ</h2>
+  <div class="profile-card">
+    <!-- 🔁 เปลี่ยนลิงก์ภาพตรง src ได้ -->
+    <img src="https://t1.blockdit.com/photos/2020/11/5fb952383d4b9b0cc0fd7d2e_800x0xcover_3aaaqsST.jpg" alt="My Profile Picture">
 
-<p>Here we specify the width and height of an image with the width and height attributes:</p>
-
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRukiR01AX2uJKQO1RX0beRFfIPYdlC_wUkKg&s.jpg" alt="Girl in a jacket" width="500" height="600">
+    <h2>สุภาวดี เวียงสอน</h2>
+    <p><strong>รหัสนักศึกษา:</strong> 6760259106</p>
+    <p><strong>ชั้นปี:</strong> ปี 4</p>
+    <p><strong>สาขา:</strong> เทคโนโลยีสารสนเทศ</p>
+    <p class="email">popsupa06@gmail.com</p>
+  </div>
 
 </body>
 </html>
